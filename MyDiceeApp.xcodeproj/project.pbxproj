@@ -24,6 +24,7 @@
 		D79052D828759A300090D0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D79052DB28759A300090D0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D79052DD28759A300090D0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79052E32875E3120090D0BD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		D79052C328759A2E0090D0BD = {
 			isa = PBXGroup;
 			children = (
+				D79052E32875E3120090D0BD /* README.md */,
 				D79052CE28759A2F0090D0BD /* MyDiceeApp */,
 				D79052CD28759A2F0090D0BD /* Products */,
 			);
