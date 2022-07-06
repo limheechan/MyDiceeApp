@@ -16,12 +16,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // #imageLiteral()   ⬇️
-        diceImageView1.image = #imageLiteral(resourceName: "DiceSix")
-        diceImageView1.alpha = 0.5
-        diceImageView2.image = #imageLiteral(resourceName: "DiceTwo")
     }
     
-
+    @IBAction func rollButtonPressed(_ sender: UIButton) {
+        //변할 필요 없어 상수 값으로 지정
+        let diceNumber = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix")]
+        
+        diceImageView1.image = diceNumber[Int.random(in: 0...5)]
+        diceImageView2.image = diceNumber[Int.random(in: 0...5)]
+    }
+    
 }
 
